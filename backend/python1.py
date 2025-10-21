@@ -7,6 +7,8 @@ import os
 from pdfminer.high_level import extract_text
 from sentence_transformers import SentenceTransformer, util
 
+#Second Version of Python Code(Not Used currently)
+
 processor = WhisperProcessor.from_pretrained("openai/whisper-tiny.en")
 model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-tiny.en")
 

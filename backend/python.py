@@ -5,6 +5,8 @@ import speech_recognition as sr
 from pydub import AudioSegment
 import contextlib
 
+#First Version of the backedn python code code invoking LLM
+
 @contextlib.contextmanager
 def suppress_stdout():
     with open(os.devnull, 'w') as devnull:
