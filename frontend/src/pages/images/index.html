@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" rel="stylesheet">
+  <title>University Overview</title>
+</head>
+<body>
+  <nav class="container-fluid">
+    <ul>
+      <li><strong>University Name</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Branches</a></li>
+      <li><a href="#" role="button">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main class="container">
+    <div class="grid">
+      <section>
+        <hgroup>
+          <h2>About Our University</h2>
+          <h3>A Place of Excellence and Learning</h3>
+        </hgroup>
+        <p>Welcome to our university, a hub of academic excellence and innovation. We offer a diverse range of programs and opportunities for students to excel in their chosen fields.</p>
+        <figure>
+          <img src="branchPhoto1.jpg" alt="University Campus" />
+          <figcaption><a href="branchPhoto2.jpg" target="_blank">View Image</a></figcaption>
+        </figure>
+        <h3>Our Vision</h3>
+        <p>To be a leading institution that nurtures talent and fosters growth in every student, preparing them for the challenges of tomorrow.</p>
+        <h3>Our Mission</h3>
+        <p>To provide a comprehensive education that combines rigorous academic study with practical experience, ensuring our graduates are well-prepared for their careers.</p>
+      </section>
+      
+      <section>
+        <hgroup>
+          <h2>Branches and Programs</h2>
+          <h3>Diverse Opportunities for Every Interest</h3>
+        </hgroup>
+        <p>Our university offers a variety of branches and programs designed to cater to different interests and career paths.</p>
+        <figure>
+          <img src="universityPhoto.jpg" alt="University Branch" />
+          <figcaption><a href="branchPhoto1.jpg" target="_blank">View Image</a></figcaption>
+        </figure>
+        <h3>Science and Technology</h3>
+        <p>Our Science and Technology branch is at the forefront of research and innovation, providing students with the knowledge and skills to excel in a rapidly evolving field.</p>
+        <h3>Business and Economics</h3>
+        <p>The Business and Economics branch offers comprehensive programs that prepare students for successful careers in the corporate world, entrepreneurship, and public service.</p>
+        <h3>Arts and Humanities</h3>
+        <p>Our Arts and Humanities branch nurtures creativity and critical thinking, offering programs that explore the diverse aspects of human culture and expression.</p>
+      </section>
+    </div>
+  </main>
+  
+  <section aria-label="Subscribe example">
+    <div class="container">
+      <article>
+        <hgroup>
+          <h2>Stay Updated</h2>
+          <h3>Subscribe to our Newsletter</h3>
+        </hgroup>
+        <form class="grid">
+          <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required />
+          <input type="email" id="email" name="email" placeholder="Email" aria-label="Email" required />
+          <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+        </form>
+      </article>
+    </div>
+  </section>
+  
+  <footer class="container">
+    <small>
+      <a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a>
+    </small>
+  </footer>
+</body>
+</html>

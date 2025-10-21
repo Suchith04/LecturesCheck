@@ -1,0 +1,33 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .branches {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .branch {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .branch img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    width: 32%;
+    margin-bottom: 10px;
+  }
+  
